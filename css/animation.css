@@ -1,0 +1,75 @@
+/* start animation img that in landing */
+@keyframes move {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: -50px;
+  }
+}
+/* end animation img that in landing */
+/* ========================================================== */
+/* start animation i that in landing */
+@keyframes bouncing {
+  0%,
+  10%,
+  20%,
+  50%,
+  80% {
+    transform: translateY(0);
+  }
+  40%,
+  60% {
+    transform: translateY(-15px);
+  }
+}
+/* end animation i that in landing */
+/* ========================================================== */
+/* start animation i that in articles section  */
+@keyframes moving-arrow{
+  100%{
+    transform: translateX(10px);
+  }
+}
+/* end animation i that in articles section  */
+/* start animation images in gallery section  */
+@keyframes flashing{
+  0%,40%{
+    opacity: 1;
+  }
+    100%{
+      opacity: 0;
+      width: 200%;
+      height: 200%;
+    }
+  }
+/* end animation images in gallery section  */
+/* start animation main-heading */
+@keyframes move-right{
+  50%{
+    left: 0;
+    height: 12px;
+    width: 12px;
+  }
+  100%{
+    left: 0;
+    border-radius: 0;
+    height: 100%;
+    width: 60%;
+  }
+}
+@keyframes move-left{
+  50%{
+    right: 0;
+    height: 12px;
+    width: 12px;
+  }
+  100%{
+    right: 0;
+    border-radius: 0;
+    height: 100%;
+    width: 60%;
+  }
+}
+/* end animation main-heading */
